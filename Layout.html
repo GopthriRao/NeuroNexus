@@ -1,0 +1,49 @@
+<!<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="layout-box">
+  <form>
+    <h2>Google Form</h2>
+
+    <label>Full Name</label>
+    <input type="text" name="fullname" required>
+
+    <label>Contact Number</label>
+    <input type="tel" name="phone" required>
+
+    <label>Address</label>
+    <textarea name="address" required></textarea>
+
+    <label>Company Name</label>
+    <input type="text" name="company">
+
+    <label>Email Address</label>
+    <input type="email" name="email" required>
+
+    <label>Department</label>
+    <select name="department" required>
+      <option>HR</option>
+      <option>Sales</option>
+      <option>Development</option>
+      <option>Marketing</option>
+      <option>Others</option>
+    </select>
+
+    <label>Gender</label>
+    <div class="gender">
+      <label><input type="radio" name="gender" value="male"> Male</label>
+      <label><input type="radio" name="gender" value="female"> Female</label>
+      <label><input type="radio" name="gender" value="none"> Prefer not to say</label>
+    </div>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
